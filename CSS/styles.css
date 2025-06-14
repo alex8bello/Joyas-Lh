@@ -1,0 +1,515 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.my-navbar{
+    height: 30px;
+}
+
+img {
+    width: 100%;
+    vertical-align: middle;
+    object-fit: fill;
+    overflow: hidden;
+}
+
+.my-logo-navbar{
+    width: 100px;
+    height: auto;
+}
+
+.nav{
+    --bs-nav-link-color: #000000;
+    --bs-nav-link-hover-color: #000000;
+}
+
+
+.navbar-nav {
+    --bs-nav-link-hover-color: rgba(0, 0, 0, 0.8);
+ }
+
+ .navbar-toggler{
+    border: none;
+    --bs-btn-close-hover-opacity:0.75;
+ }
+
+ .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.btn-close{
+    --bs-btn-close-focus-shadow:none;
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 0;
+    /* background-color: rgb(75 80 85) !important; */
+}
+
+.offcanvas-title{
+    font-weight: bold;
+}
+
+h4{
+    font-size: 5vw;
+    font-weight: bold;
+}
+
+.my-burger-menu:hover{
+    opacity: 1;
+}
+
+#home{
+    height: 100vh;
+}
+
+.d-flex{
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.my-home-text{
+    margin: 4rem 0 2rem 0;
+    width: 100%;
+}
+
+.fa-bars{
+    opacity: 0.75;
+}
+
+.fa-bars:hover {
+    opacity: 1;
+}
+
+
+
+section{
+    padding: 2em;
+    margin-top: 3em;
+}
+
+h1{
+    font-size: 10vw;
+    font-weight: bold;
+}
+
+.text-description-about p{
+    font-size: 1.7rem;
+    margin-bottom: 4rem;
+}
+
+
+
+/* SECTION STUDIO  */
+
+
+#studio{
+    padding:0;
+}
+
+#studio .container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+h3{
+    font-size: 3.8rem;
+    font-weight: bold;
+}
+
+.my-studio-card1 .d-flex,
+.my-studio-card2 .d-flex,
+.my-studio-card3 .d-flex,
+.my-studio-card4 .d-flex{
+    flex-direction: row;
+
+}
+
+
+.my-studio-card1{
+    background-color: #C3ABFF;
+}
+
+.my-studio-card2{
+    background-color: white;
+}
+
+.my-studio-card3{
+    background-color: #FED35B;
+}
+
+.my-studio-card4{
+    background-color: #232323;
+}
+
+.my-studio-card4 .my-studio-text{
+    color: white;
+}
+
+.my-studio-img{
+    width: 500px;
+}
+
+.my-studio-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.my-studio-text p{
+    font-size: 2rem;
+}
+
+.my-studio-card1,
+.my-studio-card2,
+.my-studio-card3,
+.my-studio-card4{
+    height: 150px;
+    overflow: hidden;
+    transition: height 0.75s ease;
+}
+
+.my-studio-card1:hover,
+.my-studio-card2:hover,
+.my-studio-card3:hover,
+.my-studio-card4:hover{
+    height: 500px;
+}
+
+
+
+
+
+
+/* SECTION WE ARE  */
+
+#we-are{
+    padding: 0;
+}
+
+
+.we-are-creative,
+.we-are-dpc,
+.we-are-team,
+.we-are-objective{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: space-between;
+}
+
+.we-are-creative,
+.we-are-objective{
+    background-color: #232323;
+    color: white;
+}
+
+.we-are-dpc{
+background-color: #FED35B;
+}
+
+.we-are-team{
+background-color: #C3ABFF;
+}
+
+#we-are p{
+    font-size: 1.5rem;
+}
+
+
+.blank{
+    height: 400px;
+}
+
+
+
+
+
+
+
+/* PRUEBA FOOTER  */
+
+footer,body,nav{
+    color: #cfb99e;
+    background-color: black;
+}
+
+#main {
+    position: relative;
+    z-index: 1;
+    padding: 120px 0 600px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  }
+
+  /* footer {
+    
+    position: fixed;
+    bottom: -900px; 
+    left: 0;
+    width: 100%;
+    height: 600px;
+    background-color: #C3ABFF;
+    color: white;
+    text-align: center;
+    transition: bottom 4s ease;
+    margin-top: 3rem;
+    z-index: 0;
+  }
+
+  footer.visible {
+    bottom: 0;
+} */
+
+
+  .top-info{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding: 3rem;
+  }
+
+  .top-info .nav-link{
+    font-size: 2rem;
+    text-align: left;
+  }
+
+
+  .top-info .mail-footer{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mail-footer-info{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    text-align: end;
+  }
+
+  .mail-footer-info h3{
+    font-size: 2rem;
+  }
+
+
+  .cities{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3rem;
+
+  }
+
+  .madrid,
+  .barcelona{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .madrid{
+    text-align: left;
+  }
+
+  .barcelona{
+    text-align: end;
+  }
+
+  .madrid h3,
+  .barcelona h3{
+    font-size: 2rem;
+  }
+
+/* #PROJECTS____________________________________________________ */
+
+.my-projects-cards{
+    width: 300px;
+    height: 300px;
+}
+
+.my-projects-cards:hover{
+    border-radius: 32px;
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    box-shadow:  34px 34px 67px #bfbfbf,
+             -34px -34px 67px #ffffff;
+    transition: 1s;
+}
+
+.my-projects-logos{
+    opacity: 1;
+    transition: 1s;
+    position: relative;
+}
+
+.my-projects-cards:hover .my-projects-logos{
+    opacity: 0;
+}
+
+.my-projects-text{
+    opacity: 0;
+    transition: 1s;
+    position: absolute;
+    z-index: 1;
+}
+
+.my-projects-cards:hover .my-projects-text{
+    opacity: 1;
+}
+
+.my-projects-text h3{
+    font-size: 1.5rem;
+}
+
+.my-projects-text p{
+    font-size: 1rem;
+}
+
+
+
+
+
+/* ______________________________________________________________ */
+.gallery-container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    padding: 2rem;
+    margin-top: 3rem;
+}
+
+/* Galería de mosaicos */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-flow: dense;
+    grid-auto-rows: 200px;
+    gap: 10px;
+    height: 100%;
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 32px;
+}
+
+.gallery-item:hover{   
+        
+        scale: 1.03;
+        box-shadow:  34px 34px 67px #bfbfbf,
+                 -14px -14px 7px #ffffff;
+        transition: 0.5s;
+}
+
+.gallery-item.large {
+    grid-column: span 2;
+    grid-row: span 2;
+    background-color: #C3ABFF;
+}
+
+.gallery-item.wide {
+    grid-column: span 2;
+    background-color: #FED35B;
+}
+
+.gallery-item.tall {
+    grid-row: span 2;
+    background-color: #232323;
+}
+
+.gallery-item.tall p,
+.gallery-item.tall h3 {
+    color: #e6e6e6;
+}
+
+/* Estilos de las imágenes */
+.gallery-item img {
+    width: 70%;
+}
+
+.overlay {
+    position: absolute;
+    padding: 2rem;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    opacity: 0;
+}
+
+.gallery-item:hover .overlay {
+    opacity: 1;
+}
+
+.gallery-item:hover img{
+    opacity: 0;
+}
+
+.overlay h3{
+    font-size: 1.4rem;
+}
+
+.overlay p{
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+/* ______________________________________________________________________ */
+
+  @media screen and (max-width: 750px){
+
+    h2 {
+        font-size: 13vw;
+    }
+
+
+    .text-description-about p {
+        font-size: 1.3rem;
+    }
+
+    .my-studio-text p {
+        font-size: 1rem;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+    }
+
+
+    .my-studio-card1,
+    .my-studio-card2,
+    .my-studio-card3, 
+    .my-studio-card4{
+        height: auto;
+    }
+
+    .top-info,
+    .cities {
+        padding: 1rem;
+    }
+
+    .top-info .nav-link {
+        font-size: 1rem;
+    }
+
+
+  }
+
