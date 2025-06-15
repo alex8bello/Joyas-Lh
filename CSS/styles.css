@@ -165,18 +165,18 @@ h3{
 }
 
 .my-studio-img{
-    width: 500px;
+    width: 300px;
 }
 
 .my-studio-text{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space;
 }
 
 
 .my-studio-text p{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .my-studio-card1,
@@ -185,14 +185,14 @@ h3{
 .my-studio-card4{
     height: 150px;
     overflow: hidden;
-    transition: height 0.75s ease;
+    transition: height 0.50s ease;
 }
 
 .my-studio-card1:hover,
 .my-studio-card2:hover,
 .my-studio-card3:hover,
 .my-studio-card4:hover{
-    height: 500px;
+    height: 600px;
 }
 
 
@@ -504,7 +504,7 @@ footer,body,nav{
     }
 
     h3 {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 
 
@@ -523,6 +523,11 @@ footer,body,nav{
     .top-info .nav-link {
         font-size: 1rem;
     }
+
+    .mail-footer .mail-footer-info h3{
+       font-size: 1rem; 
+    }
+   
 
 
   }
