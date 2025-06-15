@@ -2,6 +2,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+
     scroll-behavior: smooth;
 }
 
@@ -53,8 +54,10 @@ img {
     font-weight: bold;
 }
 
+
 h4{
-    font-size: 5vw;
+    font-family: "Josefin Sans";
+    font-size: 6vw;
     font-weight: bold;
 }
 
@@ -117,8 +120,8 @@ h1{
 
 
 h3{
-    font-size: 3.8rem;
-    font-weight: bold;
+    font-size: 3rem;
+    font-weight: ExtraLight;
 }
 
 .my-studio-card1 .d-flex,
@@ -131,19 +134,30 @@ h3{
 
 
 .my-studio-card1{
-    background-color: #C3ABFF;
+    background-color: #cfb99e;
+}
+
+.my-studio-card1 .my-studio-text{
+    color: white;
 }
 
 .my-studio-card2{
     background-color: white;
 }
 
+.my-studio-card2 .my-studio-text{
+    color: rgb(0, 0, 0);
+}
+
 .my-studio-card3{
-    background-color: #FED35B;
+    background-color: #000000;
+}
+.my-studio-card3 .my-studio-text{
+    color: white;
 }
 
 .my-studio-card4{
-    background-color: #232323;
+    background-color: #cfb99e;
 }
 
 .my-studio-card4 .my-studio-text{
