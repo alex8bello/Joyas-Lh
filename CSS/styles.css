@@ -427,7 +427,7 @@ footer,body,nav{
 .gallery-item.large {
     grid-column: span 2;
     grid-row: span 2;
-    background-color: #C3ABFF;
+    background-color: #ffffff;
 }
 
 .gallery-item.wide {
@@ -437,7 +437,7 @@ footer,body,nav{
 
 .gallery-item.tall {
     grid-row: span 2;
-    background-color: #232323;
+    background-color: #cfb99e;
 }
 
 .gallery-item.tall p,
@@ -447,7 +447,7 @@ footer,body,nav{
 
 /* Estilos de las imágenes */
 .gallery-item img {
-    width: 70%;
+    
 }
 
 .overlay {
